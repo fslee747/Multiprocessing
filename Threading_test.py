@@ -1,6 +1,6 @@
 import threading
 import time
-from queue import Queue
+from multiprocessing import Queue
 
 def thread_job():
         print("This is an added thread, number is %s" % threading.current_thread())
